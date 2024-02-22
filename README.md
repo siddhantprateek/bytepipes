@@ -19,7 +19,7 @@ docker compose -f docker-compose.monitoring.yml up -d
 
 # If Jenkins is running
 docker network connect jenkins <prometheus-container-id>
-# jenkins: is network where jenkins is running
+# jenkins: is network on which jenkins is running
 ```  
 
 ## Prometheus Monitoring
